@@ -1,0 +1,12 @@
+<h2 class="content-block">Menu Bar</h2>
+<div class="content-block">
+  <div class="dx-card responsive-paddings">
+
+  <div class="form">
+    <dx-menu #menu [dataSource]="products" displayExpr="name" [showFirstSubmenuMode]="showFirstSubmenuModes"
+      orientation="horizontal" submenuDirection="auto" [hideSubmenuOnMouseLeave]="false" (onItemClick)="itemClick($event)">
+    </dx-menu>
+  </div>
+ 
+</div>
+</div>
